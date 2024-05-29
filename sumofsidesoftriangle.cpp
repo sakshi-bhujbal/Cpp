@@ -6,7 +6,7 @@ int main(){
     cin>>a;
     cin>>b;
     cin>>c;
-    if(a+b>c || b+c>a || c+a>b)
+    if(a+b>c && b+c>a && c+a>b)
     {
         cout<<a<<","<<b<<","<<c<<" are the sides of triangle";
     }
