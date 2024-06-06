@@ -11,10 +11,8 @@ int main(){
     for(int i=0;i<n;i++){
         if(s[i]=='a' || s[i]=='e' || s[i]=='i' || s[i]=='o' || s[i]=='u' ){
             count+=1;
-            
         }
     }
     cout<<"The count of vowels are:"<<endl;
     cout<<count;
-
 }
