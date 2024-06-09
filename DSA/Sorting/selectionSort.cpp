@@ -1,3 +1,12 @@
+/* Time complexity = best case=O(n^2)
+Avg case = worst case= O(n^2)
+worst case= O(n^2)
+ Space Complexity= O(n) ...if already array is given and
+ Auxiliary Space used is = O(1) as no extra array is used
+ Selection sort is Unstable sort means the relative ordering of the same elements change
+*/
+
+
 #include<iostream>
 using namespace std;
 int main(){
