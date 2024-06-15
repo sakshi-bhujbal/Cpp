@@ -11,6 +11,6 @@ sumOfArrayElement(int arr[],int n){
 
 int main(){
     int arr[5]={4,9,5,-1,0};
-    int n=sizeof(arr)/4;
+    
     sumOfArrayElement(arr,5);
 }
