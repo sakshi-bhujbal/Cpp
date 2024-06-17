@@ -13,8 +13,8 @@ void twice(int arr[],int size){
 }
 
 int main(){
-int arr[8]={4,3,2,7,8,2,3,1};
-
-twice(arr,8);
+int arr[]={4,3,2,7,8,2};
+int size=sizeof(arr)/sizeof(4);
+twice(arr,size);
 
 }
